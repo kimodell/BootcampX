@@ -7,9 +7,6 @@ const pool = new Pool({
   database: "bootcampx",
 });
 
-// pool.connect()
-//   .then(() => console.log('connected'))
-//   .catch(err => console.error('connection error', err.stack))
 
 pool
   .query(
